@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+
+  <project name="poky" revision="refs/heads/warrior" remote="yocto" />
+</manifest>
