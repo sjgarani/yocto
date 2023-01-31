@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <default remote="yocto" revision="default"/>
+
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
 
   <project name="poky" revision="refs/heads/dunfell" remote="yocto" path="sources/poky" />
