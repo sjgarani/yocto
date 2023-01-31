@@ -4,6 +4,7 @@
   <default sync-j="4" revision="pyro"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
 
   <project remote="yocto" revision="pyro" name="poky" path="sources/poky"/>
   <project remote="oe" revision="pyro" name="meta-openembedded" path="sources/meta-openembedded"/>
