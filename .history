@@ -1,0 +1,332 @@
+    1  snap services
+    2  snap install bitcoin-core
+    3  ls
+    4  git status
+    5  git
+    6  cd
+    7  ls
+    8  exit
+    9  sudo apt-get update
+   10  sudo apt-get install repo
+   11  repo version
+   12  ls
+   13  mkdir -p Workspace/raspberry
+   14  cd Workspace/raspberry/
+   15  git config -l
+   16  git config --global user.name Sandro Garani
+   17  git config --global user.email sandro.garani@outlook.com
+   18  repo init -u https://android.googlesource.com/platform/manifest
+   19  ls
+   20  ls -la
+   21  ks
+   22  ls
+   23  cd ..
+   24  rm -Rf raspberry/
+   25  mkdir -p Workspace/raspberry
+   26  cd Workspace/
+   27  cd raspberry/
+   28  ls -la
+   29  repo manifest
+   30  repo init
+   31  repo manifest
+   32  ls -la
+   33  tree
+   34  cd ..
+   35  rm -Rf raspberry/
+   36  mkdir -p Workspace/raspberry
+   37  cd Workspace/
+   38  cd ..
+   39  ls
+   40  rm -Rf Workspace/
+   41  mkdir -p raspberry
+   42  cd raspberry/
+   43  ls
+   44  repo manifest -r -o manifest.xml
+   45  ls -la
+   46  repo init -r -o manifest.xml
+   47  exit
+   48  ip addr show
+   49  exit
+   50  ip addr show
+   51  ssh sgarani@192.168.1.130
+   52  ip addr show
+   53  exit
+   54  ls
+   55  cd Workspace/
+   56  ls
+   57  git clone git@github.com:sjgarani/yocto.git
+   58  cat ~/.ssh/known_hosts 
+   59  ssh-keygen -t ed25519 -C "sandro.garani@outlook.com"
+   60  cat ~/.ssh/id_ed25519.pub 
+   61  git clone git@github.com:sjgarani/yocto.git
+   62  ls
+   63  cd yocto/
+   64  ls
+   65  cd ..
+   66  rm yocto_repo/
+   67  rm -Rf yocto_repo/
+   68  mkdir repo
+   69  cd repo/
+   70  repo init -u git@github.com:sjgarani/yocto.git
+   71  ls
+   72  ls -ls
+   73  repo init -u git@github.com:sjgarani/yocto.git
+   74  ls -la
+   75  repo sync
+   76  code .repo/manifest.xml 
+   77  ls
+   78  find . -name default.xml
+   79  code .repo/manifests/default.xml 
+   80  repo sync
+   81  exit
+   82  repo init -u <file:///home/sgarani/Wokspace/yocto/repository.git>
+   83  repo init
+   84  repo sync
+   85  git add -u
+   86  git status
+   87  git add .gitignore 
+   88  git status
+   89  git commit
+   90  git push
+   91  cd ..
+   92  repo init -u git@github.com:sjgarani/yocto.git
+   93  ls
+   94  mkdir yocto_repo
+   95  cd yocto_repo/
+   96  repo init -u git@github.com:sjgarani/yocto.git
+   97  cd ..
+   98  ls
+   99  ls -la
+  100  rm -Rf .repo/
+  101  ls
+  102  ls -la
+  103  cd yocto_repo/
+  104  repo init -u git@github.com:sjgarani/yocto.git
+  105  repo init -u git@github.com:sjgarani/yocto.git --config-name
+  106  ls
+  107  ls -la
+  108  repo sync
+  109  cd ..
+  110  cd yocto
+  111  ls
+  112  repo init
+  113  repo sync
+  114  git add -u
+  115  git commit
+  116  git push
+  117  git add -u
+  118  git commit
+  119  git push
+  120  git add -u
+  121  git commit -m "Update Manifest file"
+  122  git push
+  123  exit
+  124  ls
+  125  repo
+  126  cd Workspace/repo/
+  127  ls
+  128  cd ..
+  129  rm -Rf repo/
+  130  mkdir repo_yocto
+  131  cd repo_yocto/
+  132  repo init -u git@github.com:sjgarani/yocto.git
+  133  ls -la
+  134  rm -Rf .repo/
+  135  repo init -u git@github.com:sjgarani/yocto.git
+  136  /home/sjgarani/Workspace/repo_yocto/.repo/repo/repo init -u git@github.com:sjgarani/yocto.git
+  137  sudo apt-get install python
+  138  whereis python
+  139  whereis python3
+  140  ln -s /usr/bin/python3 /usr/bin/python
+  141  sudo ln -s /usr/bin/python3 /usr/bin/python
+  142  whereis python
+  143  repo init -u git@github.com:sjgarani/yocto.git
+  144  ls
+  145  repo sync
+  146  rm -Rf .repo/
+  147  /home/sjgarani/Workspace/repo_yocto/.repo/repo/repo init -u git@github.com:sjgarani/yocto.git
+  148  repo init -u git@github.com:sjgarani/yocto.git
+  149  /home/sjgarani/Workspace/repo_yocto/.repo/repo/repo init -u git@github.com:sjgarani/yocto.git
+  150  /home/sjgarani/Workspace/repo_yocto/.repo/repo/repo sync
+  151  ls
+  152  vi .repo/manifests/default.xml 
+  153  sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev pylint3 xterm python3-subunit mesa-common-dev
+  154  cd ..
+  155  cd raspberry/
+  156  ls
+  157  ls -la
+  158  git clone git://git.yoctoproject.org/poky
+  159  ls
+  160  rm -Rf poky/
+  161  mkdir sources
+  162  ls
+  163  ls -la
+  164  sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev xterm python3-subunit mesa-common-dev
+  165  sudp apt-grt update
+  166  sudo apt-grt update
+  167  sudo apt-get update
+  168  sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev xterm python3-subunit mesa-common-dev
+  169  git init
+  170  git log
+  171  ls -la
+  172  cd sources/
+  173  git submodule add git://git.yoctoproject.org/poky
+  174  cd poky/
+  175  git checkout tags/yocto-3.1.22 -b my-yocto-3.1.22
+  176  source oe-init-build-env 
+  177  bitbake core-image-minimal
+  178  locale -a
+  179  export LC_ALL=en_US.UTF-8
+  180  locale -a
+  181  export LC_ALL=en_US.UTF-8
+  182  export LANG=en_US.UTF-8
+  183  export LC_ALL=en_US.UTF-8
+  184  locale -a
+  185  exit
+  186  cd Workspace/
+  187  ls
+  188  git clone git@github.com:sjgarani/environment.git
+  189  ls
+  190  git status
+  191  git add .
+  192  git status
+  193  git commit
+  194  ls -la
+  195  cd .devcontainer/
+  196  ls
+  197  git status
+  198  git diff
+  199  git status
+  200  git restore .
+  201  git clone git@github.com:sjgarani/.devcontainer.git
+  202  ls
+  203  history 
+  204  history | grep docker
+  205  ls
+  206  ls sources/
+  207  docker run -it --rm   -v $PWD/sources/poky:/home/sjgarani/poky   yocto-image:lates
+  208  docker build --no-cache --build-arg "host_uid=$(id -u)"   --build-arg "host_gid=$(id -g)" --tag "yocto-image:latest" .
+  209  docker run -it --rm -v $PWD/sources/poky:/home/sjgarani/poky yocto-image:lates
+  210  docker run -it --rm -v $PWD/sources/poky:/home/sjgarani/poky yocto-image:latest
+  211  exit
+  212  docker images
+  213  git system prune
+  214  docker system prune
+  215  exit
+  216  cd Workspace/
+  217  ls
+  218  cd yocto/
+  219  docker run -it --rm -v $PWD/sources/poky:/home/sjgarani/poky yocto-image:latest
+  220  git status
+  221  git log
+  222  cd sources/poky/
+  223  lx
+  224  git stauts
+  225  git status
+  226  git log]
+  227  git log
+  228  cd -
+  229  docker run -it --rm -v $PWD/sources/poky:/home/sjgarani/poky yocto-image:latest
+  230  exit
+  231  ls
+  232  cd Workspace/yocto/
+  233  docker run -it --rm -v $PWD/sources/poky:/home/sjgarani/poky yocto-image:latest
+  234  docker run -it --rm -v $PWD/sources/poky:/home/sjgarani/poky --device=/dev/net/tun:/dev/net/tun yocto-image:latest
+  235  file /dev/net/tun 
+  236  docker run -it --rm -v $PWD/sources/poky:/home/sjgarani/poky --device=/dev/net/tun:/dev/net/tun yocto-image:latest
+  237  docker run -it --rm -v $PWD/sources/poky:/home/sjgarani/poky --cap-add=NET_ADMIN --device=/dev/net/tun:/dev/net/tun yocto-image:latest
+  238  sudo modprobe tap
+  239  getifaddrs
+  240  ip addr show
+  241  cd sources/
+  242  ls
+  243  git submodule add git://git.yoctoproject.org/meta-raspberrypi.git
+  244  git submodule add git://git.openembedded.org/meta-openembedded
+  245  rm -Rf meta-openembedded/
+  246  git submodule add git://git.openembedded.org/meta-openembedded
+  247  ls
+  248  ls -la
+  249  git submodule add git://git.openembedded.org/meta-openembedded
+  250  exit
+  251  ls
+  252  cd Workspace/
+  253  ls
+  254  cd yocto/
+  255  docker run -it --rm -v $PWD/sources/poky:/home/sjgarani/poky yocto-image:latest
+  256  docker run -it --rm -v $PWD:/home/sjgarani/yocto yocto-image:latest
+  257  ls
+  258  cd Workspace/
+  259  ls
+  260  ls -la
+  261  cd yocto/
+  262  git status
+  263  git add -u
+  264  git status
+  265  rm build/bitbake.lock 
+  266  docker run -it --rm -v $PWD:/home/sjgarani/yocto yocto-image:latest
+  267  docker images
+  268  docker rmi $(docker images -a -q)
+  269  docker images
+  270  docker rmi $(docker images -a -q)
+  271  docker rmi --force $(docker images -a -q)
+  272  docker images
+  273  exit
+  274  sudo apt update
+  275  sudo apt install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat libsdl1.2-dev xterm 
+  276  sudo apt install python
+  277  cd Workspace/
+  278  ls
+  279  mkdir test
+  280  cd test/
+  281  git clone git://git.yoctoproject.org/poky
+  282  cd poky
+  283  git checkout warrior
+  284  source oe-init-build-env 
+  285  bitbake core-image-minimal
+  286  exit
+  287  sudo apt install python
+  288  sudo apt install python3
+  289  file python
+  290  whereis python
+  291  file /usr/bin/python
+  292  sudo rm /usr/bin/python
+  293  sudo apt install python
+  294  sudo apt install python2
+  295  cd Workspace/test/
+  296  ls
+  297  cd poky/
+  298  source oe-init-build-env 
+  299  bitbake core-image-minimal
+  300  sudo apt install zstd
+  301  bitbake core-image-minimal
+  302  exit
+  303  cd Workspace/yocto/
+  304  ls
+  305  source sources/poky/oe-init-build-env 
+  306  bitbake core-image-base
+  307  exit
+  308  ls
+  309  exit
+  310  cd Workspace/yocto/
+  311  source sources/poky/oe-init-build-env 
+  312  bitbake core-image-base
+  313  exit
+  314  ls
+  315  cd Workspace/
+  316  ls
+  317  cd yocto/
+  318  ls
+  319  git status
+  320  git add -u
+  321  git status
+  322  git log
+  323  giy commit
+  324  git commit
+  325  git push
+  326  ls
+  327  ls -la
+  328  history 
+  329  history | grep git
+  330  history | grep git | grep push
+  331  history | grep git | grep remote
+  332  history > .history

@@ -1,0 +1,9 @@
+source sources/poky/oe-init-build-env
+
+docker build --no-cache --build-arg "host_uid=$(id -u)" \
+  --build-arg "host_gid=$(id -g)" --tag "yocto-image:latest" .
+docker run -it --rm \
+  -v $PWD:/home/sjgarani/yocto \
+  yocto-image:latest
+
+runqemu qemux86-64
