@@ -1,0 +1,9 @@
+[submodule "metas/openembedded-core"]
+	path = metas/openembedded-core
+	url = git://git.openembedded.org/openembedded-core
+[submodule "metas/meta-erlang"]
+	path = metas/meta-erlang
+	url = https://github.com/joaohf/meta-erlang
+[submodule "metas/meta-openembedded"]
+	path = metas/meta-openembedded
+	url = git://git.openembedded.org/meta-openembedded

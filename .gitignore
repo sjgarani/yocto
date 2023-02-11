@@ -1,2 +1,8 @@
 .repo/
-build/
+build/bitbake-cookerdaemon.log
+build/bitbake.lock
+build/cache/
+build/downloads/
+build/sstate-cache/
+build/tmp/
+build/conf/templateconf.cfg
