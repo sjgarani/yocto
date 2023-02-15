@@ -6,3 +6,4 @@ build/downloads/
 build/sstate-cache/
 build/tmp/
 build/conf/templateconf.cfg
+build/workspace/
