@@ -1,3 +1,6 @@
 [submodule "metas/meta-openembedded"]
 	path = metas/meta-openembedded
 	url = git://git.openembedded.org/meta-openembedded
+[submodule "metas/meta-netconf"]
+	path = metas/meta-netconf
+	url = git@github.com:sjgarani/meta-netconf.git
